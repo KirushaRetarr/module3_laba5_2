@@ -44,7 +44,7 @@ namespace module3_laba5_2
             btnAW_BLEND.TabIndex = 0;
             btnAW_BLEND.Text = "Проявление";
             btnAW_BLEND.UseVisualStyleBackColor = true;
-            btnAW_BLEND.Click += btnAW_BLEND_Click;
+            btnAW_BLEND.Click += btnCenter_AW_SLIDE_Click;
             // 
             // btnHOR_AW_SLIDE
             // 
@@ -68,7 +68,7 @@ namespace module3_laba5_2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(447, 251);
+            ClientSize = new Size(286, 251);
             Controls.Add(btnCenter_AW_SLIDE);
             Controls.Add(btnHOR_AW_SLIDE);
             Controls.Add(btnAW_BLEND);
