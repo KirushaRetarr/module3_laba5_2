@@ -44,7 +44,7 @@ namespace module3_laba5_2
             btnAW_BLEND.TabIndex = 0;
             btnAW_BLEND.Text = "Проявление";
             btnAW_BLEND.UseVisualStyleBackColor = true;
-            btnAW_BLEND.Click += btnCenter_AW_SLIDE_Click;
+            btnAW_BLEND.Click += btnAW_BLEND_Click;
             // 
             // btnHOR_AW_SLIDE
             // 
@@ -54,7 +54,8 @@ namespace module3_laba5_2
             btnHOR_AW_SLIDE.TabIndex = 1;
             btnHOR_AW_SLIDE.Text = "Горизонтальное появление";
             btnHOR_AW_SLIDE.UseVisualStyleBackColor = true;
-            // 
+            btnHOR_AW_SLIDE.Click += btnHOR_AW_SLIDE_Click;
+            //
             // btnCenter_AW_SLIDE
             // 
             btnCenter_AW_SLIDE.Location = new Point(30, 182);
@@ -63,6 +64,7 @@ namespace module3_laba5_2
             btnCenter_AW_SLIDE.TabIndex = 2;
             btnCenter_AW_SLIDE.Text = "Появление из центра";
             btnCenter_AW_SLIDE.UseVisualStyleBackColor = true;
+            btnCenter_AW_SLIDE.Click += btnCenter_AW_SLIDE_Click;
             // 
             // Form1
             // 
